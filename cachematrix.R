@@ -10,7 +10,7 @@
 
 ## Objects 'x' will be the matrix and 'inv' its solved inverse matrix
 
-## After creating the special matrix object, it will cache its inverse.
+## After creating the special matrix object, this function will cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 
