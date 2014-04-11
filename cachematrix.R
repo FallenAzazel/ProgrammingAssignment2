@@ -4,7 +4,7 @@
 ## Utilising R, this assignment aims to using caching techniques to speed up CPU costly calculations, in this
 ## case calculations on matrices. This involves the use of two functions - 
 ##           'makeCacheMatrix' This function creates a special "matrix" object that can cache its inverse
-##			 'cacheSolve'      This function computes the inverse of the special "matrix" returned by makeCacheMatrix.
+##	     'cacheSolve'      This function computes the inverse of the special "matrix" returned by makeCacheMatrix.
 ##                             If the inverse has already been calculated (and the matrix has not changed), then the 
 ##                             cachesolve should retrieve the inverse from the cache.
 
@@ -26,8 +26,6 @@ makeCacheMatrix <- function(x = matrix()) {
              set_inv = set_inv,
              get_inv = get_inv)
 		
-
-
 }
 
 
@@ -36,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+   ## Return a matrix that is the inverse of 'x'
 
 		
 		#Checks to see if the solution to the inverse of the matrix object x is already cached
